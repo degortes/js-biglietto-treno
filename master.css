@@ -4,3 +4,32 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+header, .final-price {
+    width: 300px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+}
+p,h2,h3,h4, .user-info span {
+    padding: 15px 5px;
+}
+
+.user-info span {
+    display: inline-block;
+}
+span {
+    color: grey;
+}
+.final-price {
+    text-align: right;
+}
+
+#price, .final-price p {
+    color: white;
+    font-size: 30px;
+
+}
+ .fa-cart-arrow-down {
+    margin-left: 40px;
+}
