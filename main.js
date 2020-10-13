@@ -4,7 +4,7 @@ var price = distance*0.21;
 
 document.getElementById('distance').innerHTML = distance;
 
-if ( isNaN(age) || isNaN(distance) || distance < 0 || age > 0) {
+if ( isNaN(age) || isNaN(distance) || distance < 0 || age < 0) {
     alert('Devi inserire dei numeri validi!!! aggiorna la pagina e riprova')
     document.getElementById('null').innerHTML = 'aggiorna e riprova'
 } else if (age >= 18 && age <= 65) {
